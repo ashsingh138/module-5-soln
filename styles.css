@@ -1,0 +1,100 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    margin-top: 0;
+    color: #555;
+  }
+  
+  header {
+    margin-bottom: 30px;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+  }
+  
+  .navbar-brand p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  #logo-img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  #nav-list li {
+    padding: 10px 0;
+  }
+  
+  #menu-tile, #specials-tile, #map-tile {
+    background-color: #f8e8a0;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #menu-tile span, #specials-tile span, #map-tile span {
+    font-size: 24px;
+    color: #b10dc9;
+  }
+  
+  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    background-color: #ffe58a;
+    cursor: pointer;
+  }
+  
+  .menu-item-tile {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item-photo {
+    position: relative;
+  }
+  
+  .menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  .menu-item-price {
+    margin-top: 10px;
+  }
+  
+  .menu-item-title {
+    margin: 0 0 10px;
+  }
+  
+  #hours, #address, #testimonials {
+    margin-bottom: 20px;
+  }
+  
+  .panel-footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    color: #777;
+  }
+  
+  .jumbotron {
+    background-image: url('../images/jumbotron_768.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 25px;
+    margin-bottom: 50px;
+  }
+  
